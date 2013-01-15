@@ -1,0 +1,325 @@
+/* General & 'Reset' Stuff */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(1, 0, 0, 0.88);
+    color: #eaeaea;
+    font: 16px;
+    line-height: 1.5;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 20px;
+}
+
+#main_content li {
+    line-height: 1.8;
+}
+
+/* Header, <header> */
+
+header {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-bottom: 1px dotted #b5e853;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #b5e853;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(181, 232, 83, 0.1),
+    0 0 10px rgba(181, 232, 83, 0.1);
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    margin-bottom: 0;
+}
+
+header h1:before {
+    font-size: 24px;
+}
+
+header h2 {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+}
+
+nav ol {
+    list-style: none outside none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ol li {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+/* Main Content */
+
+#main_content {
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #b5e853;
+    letter-spacing: -0.03em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(181, 232, 83, 0.1),
+    0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+#main_content h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#main_content h2 {
+    font-size: 24px;
+}
+
+#main_content h3 {
+    font-size: 18px;
+}
+
+#main_content h4 {
+    font-size: 14px;
+}
+
+#main_content h5 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+
+#main_content h6 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #999;
+    margin: 0 0 5px 0;
+}
+
+dt {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#main_content ul li {
+    list-style: none;
+}
+
+#main_content ul li:before {
+    content: "✰";
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 13px;
+    color: #b5e853;
+    margin-left: -37px;
+    margin-right: 21px;
+    line-height: 16px;
+}
+
+blockquote {
+    color: #aaa;
+    padding-left: 10px;
+    border-left: 1px dotted #666;
+}
+
+p code {
+    background-color: rgba(28, 255, 0, 0.12);
+    border-color: green;
+    border-style: solid;
+    border-width: 1px 0;
+    color: wheat;
+    padding: 1px;
+}
+
+pre {
+    color: #000000;
+    background-color: #EEEEEE;
+    border-left: 5px solid #CCCCCC;
+    font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding: 5px 5px 5px 10px;
+    width: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.3em;
+}
+
+th {
+    background-color: gray;
+}
+
+hr {
+    height: 0;
+    border: 0;
+    border-bottom: 1px dashed #b5e853;
+    color: #b5e853;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+    background: -moz-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+    padding: 8px 12px;
+    border-radius: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+    border-top: 2px solid rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.btn:hover {
+    background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+    background: -moz-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+}
+
+.btn .icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 1px 8px 0 0;
+    float: left;
+}
+
+.btn-github .icon {
+    opacity: 0.6;
+    background: url("/img/blacktocat.png") 0 0 no-repeat;
+}
+
+/* Links */
+
+a {
+    color: #63c0f5;
+    text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+/* Clearfix */
+
+.cf:before, .cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+.cf {
+    zoom:1;
+}
+
+/* post */
+.post-date {
+    color: gray;
+}
+
+.post-title {
+    color: #B5E853;
+    text-decoration: none;
+}
+
+.post-tags {
+    font-size: small;
+}
+
+.post-cat {
+    font-weight: bold;
+}
+
+.post-tag {
+    cursor: pointer;
+    text-shadow: none !important;
+    background-color: #000000;
+    border-bottom: 1px solid #3E6D8E;
+    border-right: 1px solid #7F9FB6;
+    color: #00FF00;
+    font-size: 90%;
+    line-height: 2.4;
+    margin: 2px 2px 2px 0;
+    padding: 3px 4px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.post-tag:hover {
+    background-color: #3E6D8E;
+    border-bottom: 1px solid #37607D;
+    border-right: 1px solid #37607D;
+    color: #E0EAF1;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: text-top;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -webkit-linear-gradient(#F1F1F1, #DDDDDD) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(#F1F1F1, #DDDDDD) repeat scroll 0 0 transparent;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    margin: 1px;
+    padding: 1px 4px;
+}
+
+footer {
+    color: gray;
+    border-top: 1px dotted #B5E853;
+    font-size: small;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+

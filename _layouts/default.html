@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+        <meta name="keywords" content="" >
+        <meta name="description" content="" >
+        <title> {% if page.title %} {{ page.title }} - {% endif %} RED</title>
+        <link type="image/png" href="/img/favicon.png" rel="icon">
+        <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/css/pygments/default.css" media="screen" />
+    </head>
+    <body class="container">
+
+        <header>
+		<h1 id="title"><a href="/">RED</a>:)</h1>
+        <h2 id="subtitle">Do you have a dream? </h2>
+            <nav>
+            <ol>
+                <li><a href="/" class="btn">主页</a></li>
+                <li><a href="/tagcloud.html" class="btn">目录</a></li>
+                <li><a href="/about.html" class="btn">关于我</a></li>
+            </ol>
+            </nav>
+        </header>
+
+        <section id="main_content">
+        {{ content }}
+        </section>
+
+        <footer>
+            <p> Copyright &copy; <a href="/">Red</a> All rights reserved. [Updated @{{ site.time | date: "%Y-%m-%d" }}]</p>
+        </footer>
+
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-32153165-2']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+</script>
+
+</body>
+</html>
