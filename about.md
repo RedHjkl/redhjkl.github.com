@@ -10,6 +10,9 @@ comments:  true
 
 ----
 
-> 如果你想联系我,请发EMALL
+# 有以下方式可以联系到我
+
+  Email:`yanwh1989@163.com`
+
 
 [张佳伟]:(http://ghosertblog.github.com/)
