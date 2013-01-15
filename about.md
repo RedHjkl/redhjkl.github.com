@@ -15,7 +15,7 @@ comments:  true
 
 ## 联系我?
 
-> Gmail:`ywh1989@gmail.com`
+![gmail](/img/gmail.png)
 
 [张佳伟]: http://ghosertblog.github.com/
 [HJKL]: http://hjkl.me/
