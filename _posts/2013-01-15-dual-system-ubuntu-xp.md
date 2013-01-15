@@ -1,6 +1,6 @@
 ---
 layout:    post
-title:    ubuntu && xp (上)
+title:    ubuntu && xp 双系统 
 comments:  true
 category: linux
 tags: [linux]
