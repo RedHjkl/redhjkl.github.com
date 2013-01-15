@@ -10,6 +10,8 @@ comments:  true
 
 > 感谢[张佳伟],[HJKL]，他们的Blog，让我学习有了一个目标.
 
+> 我不是一个Geeker,但是我崇尚geek精神
+
 
 ----
 
@@ -17,5 +19,10 @@ comments:  true
 
 ![gmail](/img/gmail.png)
 
+[github]
+
 [张佳伟]: http://ghosertblog.github.com/
+
 [HJKL]: http://hjkl.me/
+
+[github]: https://github.com/RedHjkl
