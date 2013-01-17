@@ -64,4 +64,35 @@ linux 支持文件系统
 * -t fsck默认自动检测文件系统,如果文件系统损害严重最好加上-t
 * lost+found损坏数据fsck会将文件放入lost+found文件目录
 
+----
 
+## mount挂载操作
+linux系统需要手工挂载或者配置自动挂载
+最好挂载到/mnt
+
+常用参数
+
+* -t 制定文件系统类型 
+* -o 制定挂载选项 
+        ro; rw 只读/读写方式挂载
+		sync 代表不使用缓存,而是对所有操作直接写入磁盘
+		async 代表使用缓存 默认是async
+		noatime 代表每次访问时不更新文件访问时间
+		atime 代表每次访问文件时更新文件的访问时间
+		remount 重新挂载系统
+
+卸载操作
+    umount /dev/sdb1
+
+如果无法卸载
+    fuser -m /mnt 查看那些文件系统被进程使用
+    lsof 查看正在使用的文件
+
+## 自动挂载
+
+	配置文件/etc/fstab用来定义需要自动挂载的文件系统
+
+    /dev/sdb1	/mnt	ext4	default	0 0
+    需要挂载的设备 挂载点  文件系统   挂载选项  dump fsck选项
+
+	自动挂载时的/dev/sdb1 修改为卷标挂载LABEL=卷标
