@@ -6,34 +6,39 @@ category: linux
 tags: [linux]
 ---
 
-# 磁盘分区与文件系统
-## fdisk分区工具
+## 1.fdisk分区工具
 
 fdisk 基于MBR的分区工具,如果需要GPT，则
 无法使用fdisk进行分区.
 
 fdisk 只有超级用户才能够使用
+
 * fdisk -l列出所有安装磁盘以及分区信息
 * fdisk /dev/sdb 进行
-    常用命令: `l`
-	`n`: p primary partion
-	`n`: e extend partion
-* 分区之后需要`partprobe`更新内核分区信息
-	cat proc/patitions 查看分区信息
-	fdisk -l 查看分区信息
-	ls etc/
+
+常用命令: `l` `n`: 
+
+    p primary partion
+    e extend partion
+
+分区之后需要`partprobe`更新内核分区信息
+    cat proc/patitions 查看分区信息
+    fdisk -l 查看分区信息
+    ls etc/
 
 ----
 
-## 文件系统
-> 创建文件系统的过程称为格式化
+## 2.文件系统
+创建文件系统的过程称为格式化
 linux 支持文件系统
     ext2 ext3 ext4 fat vfat
 	nfs iso9660 proc gfs jfs
 
 ## mke2fs 创建文件系统
     mke2fs -t ext4 /dev/sda3
+
 常用参数
+
 * -b blocksize 指定文件系统块大小
 * -c 建立文件系统时检查坏损块
 * -L label 制定卷标
