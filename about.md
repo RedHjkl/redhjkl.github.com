@@ -10,7 +10,11 @@ comments:  true
 
 > 感谢[张佳伟],[HJKL]，他们的Blog，让我学习有了一个目标.
 
-> 我不是一个Geeker,但是我崇尚geek精神
+> 我不是一个Geeker,但是我崇尚geek精神.
+
+> 如果你想要获得更好的效果,请使用IE 9,或者chromium,firefox浏览器,
+
+> 你会发现世界美好了许多.
 
 
 ----
