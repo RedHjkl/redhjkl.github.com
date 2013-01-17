@@ -41,7 +41,7 @@ MBR(Master Boot Record) 是传统的分区机制，应用与绝大多数BIOS的P
 GPT (GUID Partition Table) 十一个新的分区机制,解决了MBR很多缺点
 
 * 支持超过2T磁盘
-* 向后兼容MBR
+* 向后兼容** MBR **
 * 必须在支持UEFI硬件上使用
 * 必须使用64bit
 * Mac,Linux都支持GPT分区格式

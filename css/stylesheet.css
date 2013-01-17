@@ -3,7 +3,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(1, 0, 0, 0.88);
+	background-color: rgb(0, 0, 10);
+	background-color: rgba(1, 0, 0, 0.88);
     color: #eaeaea;
     font: 16px;
     line-height: 1.5;
@@ -31,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header, <header> */
 
 header {
+	background: rgb(0, 0, 0, 1);
     background: rgba(0, 0, 0, 0.1);
     width: 100%;
     border-bottom: 1px dotted #b5e853;
@@ -64,13 +66,13 @@ header h2 {
     margin: 0;
 }
 
-nav ol {
+nav ul {
     list-style: none outside none;
     padding: 0;
     margin: 0;
 }
 
-nav ol li {
+nav ul li {
     display: inline-block;
     text-align: center;
     margin: 0;
