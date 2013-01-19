@@ -22,4 +22,5 @@ tags: [ubuntu]
 
 ### 安装virtualbox虚拟机
 
-`virtualbox` <kbd>sudo apt-get install virtual</kbd>
+
+

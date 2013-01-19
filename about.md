@@ -23,7 +23,7 @@ comments:  true
 
 ![gmail](/img/gmail.png)
 
-[github]
+![githubimg](/img/blacktocat.png) [github]
 
 [张佳伟]: http://ghosertblog.github.com/
 

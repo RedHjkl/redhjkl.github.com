@@ -44,6 +44,12 @@ tags:      [linux]
 *	-n 指定末尾行数
 	-f 追踪显示文件的更新(用于查看日志)
 
+##  查看磁盘文件使用情况
+	du -sh
+常用参数:
+	-s 不统计子目录,只显示当前目录
+	-h 容易读的形式显示
+
 ----
 
 # 硬件信息查看
@@ -89,7 +95,7 @@ tags:      [linux]
 * tar -cvf out.tar myfile
 * tar -xvf out.tar
 * tar -zcvf *.tar.gz /mycat -z参数将归档后的归档文件进行gzip压缩以减少大小
-	tar -xzvf *.tar.gz ./
+* tar -xzvf *.tar.gz -C 目录 将文件解压缩到 目录 中
 
 ----
 
