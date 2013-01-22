@@ -121,11 +121,28 @@ tags:      [linux]
 *	-type
 *	-size
 
+----
 
+## linux帮助
 
+command -h --help 查看命令帮助 
 
+## man
 
+man 文档类型
 
+* 1	用户命令
+* 2 内核系统调用
+* man -k 关键字 查看该关键字的文档
 
+## info
+
+info 与man类似，类似网页形式
+
+man和info 都可以使用/进行搜索
+
+## DOC
+
+统一保存在/usr/share/doc
 
 
