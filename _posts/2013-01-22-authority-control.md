@@ -1,9 +1,9 @@
 ---
 layout:    post
-title:    tips 
+title:     linux权限管理
 comments:  true
-category: ubuntu
-tags: [ubuntu]
+category: linux
+tags: [linux]
 ---
 ## 权限
 
