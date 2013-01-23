@@ -1,9 +1,9 @@
 ---
-layout:   post
-title:    linux权限控制 
-comments: true
-category: linux
-tags:	  [linux] 
+layout:    post
+title:     linux权限控制
+comments:  true
+category:  linux
+tags:	   [linux]
 ---
 
 ## 权限
