@@ -11,7 +11,7 @@ tags: [ubuntu]
 
 `virtualbox` <kbd>sudo apt-get install virtual</kbd>
 
-### Linux下HTML文件转化为pdf
+## Linux下HTML文件转化为pdf
 `wkhtmltopdf`	
     下载地址http://code.google.com/p/wkhtmltopdf/
 使用方法:
@@ -22,4 +22,5 @@ tags: [ubuntu]
     一般使用：axel url（下载文件地址）
     限速使用：加上 -s 参数，如 -s 10240，即每秒下载的字节数，这里是 10 Kb
     限制连接数：加上 -n 参数，如 -n 5，即打开 5 个连接
+	不刷屏下载:加上 -a 参数
 

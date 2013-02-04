@@ -20,6 +20,3 @@ tags: [ubuntu]
 
 `gcc gdb` <kbd>sudo apt-get install vim</kbd>
 
-### 安装virtualbox虚拟机
-
-
