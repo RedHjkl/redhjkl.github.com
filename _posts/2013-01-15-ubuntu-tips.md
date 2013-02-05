@@ -24,3 +24,7 @@ tags: [ubuntu]
     限制连接数：加上 -n 参数，如 -n 5，即打开 5 个连接
 	不刷屏下载:加上 -a 参数
 
+## ubuntu桌面死机重启
+打开terminal，使用
+	ps -t tty7 查询Xorg的PID
+	使用kill -9 PID 随后ubuntu将重启桌面，只是数据无法恢复
